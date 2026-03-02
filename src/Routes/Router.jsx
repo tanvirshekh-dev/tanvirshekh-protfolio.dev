@@ -12,6 +12,18 @@ const router = createBrowserRouter([
         path: "/",
         Component: HomePage,
       },
+      {
+        path: "/",
+        Component: HomePage,
+      },
+      {
+        path: "/",
+        Component: HomePage,
+      },
+      {
+        path: "/",
+        Component: HomePage,
+      },
     ],
   },
 ]);
