@@ -1,4 +1,4 @@
-import React from "react";
+import { BriefcaseBusiness, Contact, FolderGit2, House, Info, NotebookPen, TableOfContents } from "lucide-react";
 import { NavLink } from "react-router";
 
 const Navbar = () => {
@@ -6,25 +6,22 @@ const Navbar = () => {
   const links = (
     <>
       <li>
-        <NavLink to={'/'}>Home</NavLink>
+         <NavLink to={'/'} className="text-lg md:text-[16px] font-medium"><House size={20} className="block md:hidden" /> Home</NavLink>
       </li>
       <li>
-        <NavLink to={'/about'}>About</NavLink>
+        <NavLink to={'/about'} className="text-lg md:text-[16px] font-medium"><Info size={20} className="block md:hidden" /> About</NavLink>
       </li>
       <li>
-        <NavLink to={'/skills'}>Skills</NavLink>
+        <NavLink to={'/skills'} className="text-lg md:text-[16px] font-medium"><NotebookPen size={20} className="block md:hidden"  /> Skills</NavLink>
       </li>
       <li>
-        <NavLink to={'/services'}>Services</NavLink>
+        <NavLink to={'/services'} className="text-lg md:text-[16px] font-medium"><BriefcaseBusiness size={20} className="block md:hidden" /> Services</NavLink>
       </li>
       <li>
-        <NavLink to={'/projects'}>Projects</NavLink>
+        <NavLink to={'/projects'} className="text-lg md:text-[16px] font-medium"><FolderGit2 size={20} className="block md:hidden" /> Projects</NavLink>
       </li>
       <li>
-        <NavLink to={'/blog'}>Blog</NavLink>
-      </li>
-      <li>
-        <NavLink to={'/contact'}>Contact</NavLink>
+        <NavLink to={'/contact'} className="text-lg md:text-[16px] font-medium"><Contact size={20} className="block md:hidden" /> Contact</NavLink>
       </li>
     </>
   )
@@ -33,21 +30,7 @@ const Navbar = () => {
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              {" "}
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
-              />{" "}
-            </svg>
+            <TableOfContents size={20} />
           </div>
           <ul
             tabIndex="-1"
@@ -56,7 +39,7 @@ const Navbar = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Tanvir Shekh</a>
+        <a className="btn btn-ghost text-2xl">Tanvir Shekh</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
