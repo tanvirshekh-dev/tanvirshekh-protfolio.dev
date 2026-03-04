@@ -2,3 +2,7 @@
  @plugin "daisyui" {
    themes: light --prefersdark, dark --default;
  }
+
+ @theme{
+  --color-primary: #00ff88;
+ }
