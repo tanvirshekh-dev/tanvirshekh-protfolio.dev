@@ -6,7 +6,6 @@ import { FaBehance } from "react-icons/fa";
 
 const Home = () => {
   return (
-    // justify-center ব্যবহার করা হয়েছে যাতে কন্টেন্ট মাঝখানে থাকে
     <div className="min-h-screen flex items-center justify-center p-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-6xl w-full">
         <div>
