@@ -5,8 +5,8 @@ import { Award, Download, Users } from "lucide-react";
 
 const About = () => {
   return (
-    <div>
-      <h2 className="text-center text-4xl my-8 ">
+    <div className="w-11/12 mx-auto">
+      <h2 className="text-center text-4xl mt-8 ">
         Know More{" "}
         <span className="bg-gradient-to-r from-[#00d390] to-[#00fff2] bg-clip-text text-transparent">
           About Me

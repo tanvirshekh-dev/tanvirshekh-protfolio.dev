@@ -6,7 +6,7 @@ import { FaBehance } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center p-4">
+    <div className="min-h-screen flex items-center justify-center w-11/12 mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-6xl w-full">
         <div>
           {/* title */}

@@ -6,3 +6,7 @@
  @theme{
   --color-primary: #00ff88;
  }
+
+ .skills-border{
+  @apply  py-6 rounded-lg flex items-center justify-center flex-col hover:bg-gray-800 hover:border hover:border-[#00d390] hover:transition-transform hover:scale-105 hover:duration-300
+ }
