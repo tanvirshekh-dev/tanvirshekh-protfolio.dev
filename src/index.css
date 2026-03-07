@@ -1,12 +1,29 @@
 @import "tailwindcss";
- @plugin "daisyui" {
-   themes: light --prefersdark, dark --default;
- }
+@plugin "daisyui" {
+  themes:
+    light --prefersdark,
+    dark --default;
+}
 
- @theme{
+@theme {
   --color-primary: #00ff88;
- }
+}
 
- .skills-border{
-  @apply  py-6 rounded-lg flex items-center justify-center flex-col hover:bg-gray-800 hover:border hover:border-[#00d390] hover:transition-transform hover:scale-105 hover:duration-300
- }
+.skills-border {
+  @apply py-6 rounded-lg flex items-center justify-center bg-gray-800 flex-col hover:bg-gray-700 hover:border hover:border-[#00d390] hover:transition-transform hover:scale-105 hover:duration-300;
+}
+
+.services-image-clip-path {
+  clip-path: polygon(
+    50% 0%,
+    78% 14%,
+    100% 26%,
+    100% 75%,
+    74% 88%,
+    50% 100%,
+    22% 87%,
+    0 75%,
+    0 27%,
+    22% 14%
+  );
+}
