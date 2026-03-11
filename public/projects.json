@@ -1,67 +1,89 @@
 [
   {
     "id": 1,
-    "title": "Modern E-commerce Platform",
-    "description": "A full-featured e-commerce solution with payment integration and admin dashboard.",
-    "image": "/images/ecommerce.jpg",
-    "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
+    "title": "E-Learning Platform",
+    "description": "Learn English smarter — explore word meanings, build vocabulary, and improve your skills anytime, anywhere",
+    "image": "https://i.ibb.co.com/ynRNMh0J/image.png",
+    "technologies": ["HTML", "CSS", "Vanila JavaScript"],
     "links": {
-      "live": "https://ecommerce-demo.com",
-      "github": "https://github.com/username/ecommerce-project"
+      "live": "https://tanvirshekh-dev.github.io/English-Janala/",
+      "github": "https://github.com/tanvirshekh-dev/English-Janala.git"
     },
     "buttonText": "View Case Study",
     "hoverIcons": [
       {
         "icon": "external-link",
-        "url": "https://ecommerce-demo.com"
+        "url": "https://tanvirshekh-dev.github.io/English-Janala/"
       },
       {
         "icon": "github",
-        "url": "https://github.com/username/ecommerce-project"
+        "url": "https://github.com/tanvirshekh-dev/English-Janala.git"
       }
     ]
   },
   {
     "id": 2,
     "title": "Portfolio Website Design",
-    "description": "Creative portfolio website with smooth animations and modern UI.",
-    "image": "/images/portfolio.jpg",
-    "technologies": ["Next.js", "Tailwind", "Framer Motion"],
+    "description": "Showcasing your creative designs, projects, and skills — a professional portfolio that speaks for itself.",
+    "image": "https://i.ibb.co.com/kTMb4n9/image.png",
+    "technologies": ["HTML", "CSS", "Tailwind CSS"],
     "links": {
-      "live": "https://portfolio-demo.com",
-      "github": "https://github.com/username/portfolio-project"
+      "live": "https://tanvirshekh-dev.github.io/UI-UX-Portfolio-Black-Theme-Cit/src",
+      "github": "https://github.com/tanvirshekh-dev/UI-UX-Portfolio-Black-Theme-Cit"
     },
     "buttonText": "View Case Study",
     "hoverIcons": [
       {
         "icon": "external-link",
-        "url": "https://portfolio-demo.com"
+        "url": "https://tanvirshekh-dev.github.io/UI-UX-Portfolio-Black-Theme-Cit/src"
       },
       {
         "icon": "github",
-        "url": "https://github.com/username/portfolio-project"
+        "url": "https://github.com/tanvirshekh-dev/UI-UX-Portfolio-Black-Theme-Cit"
       }
     ]
   },
   {
     "id": 3,
-    "title": "Task Management Dashboard",
-    "description": "A productivity dashboard to manage tasks, teams, and deadlines efficiently.",
-    "image": "/images/task-dashboard.jpg",
-    "technologies": ["React", "Express", "MongoDB", "Firebase"],
+    "title": "Home Decor E-Commerce",
+    "description": "Shop stunning home decor — transform your space with beautiful furniture, accessories, and design inspirations.",
+    "image": "https://i.ibb.co.com/KjxJhW3p/image.png",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"],
     "links": {
-      "live": "https://task-dashboard-demo.com",
-      "github": "https://github.com/username/task-dashboard"
+      "live": "https://home-decore-projects.netlify.app/",
+      "github": "https://github.com/tanvirshekh-dev/homedecore"
     },
     "buttonText": "View Case Study",
     "hoverIcons": [
       {
         "icon": "external-link",
-        "url": "https://task-dashboard-demo.com"
+        "url": "https://home-decore-projects.netlify.app/"
       },
       {
         "icon": "github",
-        "url": "https://github.com/username/task-dashboard"
+        "url": "https://github.com/tanvirshekh-dev/homedecore"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Home Decor E-Commerce",
+    "description": "Shop stunning home decor — transform your space with beautiful furniture, accessories, and design inspirations.",
+    "image": "https://i.ibb.co.com/G3nw1XMn/image.png",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"],
+    "links": {
+      "live": "https://home-decore-projects.netlify.app/",
+      "github": "https://github.com/tanvirshekh-dev/homedecore"
+    },
+    "buttonText": "View Case Study",
+    "hoverIcons": [
+      {
+        "icon": "external-link",
+        "url": "https://home-decore-projects.netlify.app/"
+      },
+      {
+        "icon": "github",
+        "url": "https://github.com/tanvirshekh-dev/homedecore"
       }
     ]
   }
