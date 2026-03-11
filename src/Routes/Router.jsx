@@ -1,4 +1,3 @@
-import { Home } from "lucide-react";
 import { createBrowserRouter } from "react-router";
 import RootLayout from "../Layouts/RootLayout/RootLayout";
 import HomePage from "../Pages/HomePage/HomePage";
@@ -7,35 +6,42 @@ import Skills from "../Pages/Skills/Skills";
 import Services from "../Pages/Services/Services";
 import Projects from "../Pages/Projects/Projects";
 import Contact from "../Pages/Contact/Contact";
+import Loading from "../Components/Loading/Loading";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    Component: RootLayout,
+    element: <RootLayout />,
     children: [
       {
         path: "/",
-        Component: HomePage,
+        element: <HomePage />,
       },
       {
         path: "/about",
-        Component: About,
+        element: <About />,
       },
       {
         path: "/skills",
-        Component: Skills,
+        element: <Skills />,
       },
       {
         path: "/services",
-        Component: Services,
+        element: <Services />,
       },
       {
         path: "/projects",
-        Component: Projects,
+        element: <Projects />,
+        loader: async () => {
+          const res = await fetch("/projects.json")
+          return res.json();
+        },
+          
+        hydrateFallbackElement: <Loading />
       },
       {
         path: "/contact",
-        Component: Contact,
+        element: <Contact />,
       },
     ],
   },

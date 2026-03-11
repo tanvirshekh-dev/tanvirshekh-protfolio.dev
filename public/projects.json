@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Modern E-commerce Platform",
+    "description": "A full-featured e-commerce solution with payment integration and admin dashboard.",
+    "image": "/images/ecommerce.jpg",
+    "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
+    "links": {
+      "live": "https://ecommerce-demo.com",
+      "github": "https://github.com/username/ecommerce-project"
+    },
+    "buttonText": "View Case Study",
+    "hoverIcons": [
+      {
+        "icon": "external-link",
+        "url": "https://ecommerce-demo.com"
+      },
+      {
+        "icon": "github",
+        "url": "https://github.com/username/ecommerce-project"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Portfolio Website Design",
+    "description": "Creative portfolio website with smooth animations and modern UI.",
+    "image": "/images/portfolio.jpg",
+    "technologies": ["Next.js", "Tailwind", "Framer Motion"],
+    "links": {
+      "live": "https://portfolio-demo.com",
+      "github": "https://github.com/username/portfolio-project"
+    },
+    "buttonText": "View Case Study",
+    "hoverIcons": [
+      {
+        "icon": "external-link",
+        "url": "https://portfolio-demo.com"
+      },
+      {
+        "icon": "github",
+        "url": "https://github.com/username/portfolio-project"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Task Management Dashboard",
+    "description": "A productivity dashboard to manage tasks, teams, and deadlines efficiently.",
+    "image": "/images/task-dashboard.jpg",
+    "technologies": ["React", "Express", "MongoDB", "Firebase"],
+    "links": {
+      "live": "https://task-dashboard-demo.com",
+      "github": "https://github.com/username/task-dashboard"
+    },
+    "buttonText": "View Case Study",
+    "hoverIcons": [
+      {
+        "icon": "external-link",
+        "url": "https://task-dashboard-demo.com"
+      },
+      {
+        "icon": "github",
+        "url": "https://github.com/username/task-dashboard"
+      }
+    ]
+  }
+]

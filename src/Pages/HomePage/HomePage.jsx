@@ -3,6 +3,7 @@ import Home from '../../Components/Home/Home';
 import About from '../About/About';
 import Skills from '../Skills/Skills';
 import Services from '../Services/Services';
+import Projects from '../Projects/Projects';
 
 const HomePage = () => {
     return (
@@ -15,6 +16,8 @@ const HomePage = () => {
             <Skills></Skills>
             {/* My services section */}
             <Services></Services>
+            {/* Projects section */}
+            <Projects></Projects>
         </div>
     );
 };
