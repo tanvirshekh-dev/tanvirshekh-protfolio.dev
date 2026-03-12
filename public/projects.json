@@ -25,7 +25,7 @@
     "id": 2,
     "title": "Portfolio Website Design",
     "description": "Showcasing your creative designs, projects, and skills — a professional portfolio that speaks for itself.",
-    "image": "https://i.ibb.co.com/kTMb4n9/image.png",
+    "image": "https://i.ibb.co.com/gZSNb3Xj/image.png",
     "technologies": ["HTML", "CSS", "Tailwind CSS"],
     "links": {
       "live": "https://tanvirshekh-dev.github.io/UI-UX-Portfolio-Black-Theme-Cit/src",
@@ -67,23 +67,45 @@
   },
   {
     "id": 4,
-    "title": "Home Decor E-Commerce",
-    "description": "Shop stunning home decor — transform your space with beautiful furniture, accessories, and design inspirations.",
-    "image": "https://i.ibb.co.com/G3nw1XMn/image.png",
-    "technologies": ["HTML", "CSS", "JavaScript", "React"],
+    "title": "News & Media Landing Page",
+    "description": "Creating modern News & Media Landing Pages that deliver content clearly and keep readers engaged.",
+    "image": "https://i.ibb.co.com/mMdfHsf/image.png",
+    "technologies": ["HTML", "Tailwind CSS", "JavaScript", "React", "Firebase"],
     "links": {
-      "live": "https://home-decore-projects.netlify.app/",
-      "github": "https://github.com/tanvirshekh-dev/homedecore"
+      "live": "https://dragon-newspeaper.netlify.app/category/1",
+      "github": "https://github.com/tanvirshekh-dev/Dragon-Newspeaper"
     },
     "buttonText": "View Case Study",
     "hoverIcons": [
       {
         "icon": "external-link",
-        "url": "https://home-decore-projects.netlify.app/"
+        "url": "https://dragon-newspeaper.netlify.app/category/1"
       },
       {
         "icon": "github",
-        "url": "https://github.com/tanvirshekh-dev/homedecore"
+        "url": "https://github.com/tanvirshekh-dev/Dragon-Newspeaper"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "SaaS Web Application",
+    "description": "Building powerful SaaS Web Applications with modern tech stack, clean UI, and seamless user experience.",
+    "image": "https://i.ibb.co.com/R4ZtFJyX/image.png",
+    "technologies": ["Tailwind CSS", "JavaScript", "React", "Axios", "Recharts"],
+    "links": {
+      "live": "https://app-station-website.netlify.app",
+      "github": "https://github.com/tanvirshekh-dev/app-station.git"
+    },
+    "buttonText": "View Case Study",
+    "hoverIcons": [
+      {
+        "icon": "external-link",
+        "url": "https://app-station-website.netlify.app"
+      },
+      {
+        "icon": "github",
+        "url": "https://github.com/tanvirshekh-dev/app-station.git"
       }
     ]
   }

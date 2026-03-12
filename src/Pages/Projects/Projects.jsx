@@ -19,7 +19,7 @@ const Projects = () => {
                 <img
                   src={project.image}
                   alt="Project Image"
-                  className="h-[200px] w-full"
+                  className="h-[220px] w-full"
                 />
               </figure>
               <div className="card-body">
