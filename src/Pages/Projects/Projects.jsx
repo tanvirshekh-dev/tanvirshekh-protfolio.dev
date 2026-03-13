@@ -1,8 +1,14 @@
+import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
 
 const Projects = () => {
-  const projects = useLoaderData() ?? [];
+  const [projects, setProjects] = useState([])
 
+  useEffect(()=>{
+    fetch('/projects.json')
+    .then((res)=> res.json())
+    .then((data)=> setProjects(data))
+  }, [])
   return (
     <div>
       <h2 className="text-center text-4xl mt-8 ">
@@ -35,8 +41,8 @@ const Projects = () => {
                     ))
                   }
                 </div>
-                <div className="card-actions justify-start">
-                  <button className="btn btn-primary">Buy Now</button>
+                <div className="card-actions">
+                  <button className="btn btn-outline btn-success w-full my-3">View case Study</button>
                 </div>
               </div>
             </div>

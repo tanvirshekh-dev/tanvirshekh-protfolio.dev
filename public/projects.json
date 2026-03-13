@@ -69,7 +69,7 @@
     "id": 4,
     "title": "News & Media Landing Page",
     "description": "Creating modern News & Media Landing Pages that deliver content clearly and keep readers engaged.",
-    "image": "https://i.ibb.co.com/mMdfHsf/image.png",
+    "image": "https://i.ibb.co.com/rRtCTqn2/image.png",
     "technologies": ["HTML", "Tailwind CSS", "JavaScript", "React", "Firebase"],
     "links": {
       "live": "https://dragon-newspeaper.netlify.app/category/1",
@@ -91,7 +91,7 @@
     "id": 5,
     "title": "SaaS Web Application",
     "description": "Building powerful SaaS Web Applications with modern tech stack, clean UI, and seamless user experience.",
-    "image": "https://i.ibb.co.com/R4ZtFJyX/image.png",
+    "image": "https://i.ibb.co.com/WptPWqk5/image.png",
     "technologies": ["Tailwind CSS", "JavaScript", "React", "Axios", "Recharts"],
     "links": {
       "live": "https://app-station-website.netlify.app",
@@ -106,6 +106,28 @@
       {
         "icon": "github",
         "url": "https://github.com/tanvirshekh-dev/app-station.git"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Pet Care Service Website",
+    "description": "Your pet deserves the best! I create stunning Pet Care Websites that connect owners with trusted vets and groomers",
+    "image": "https://i.ibb.co.com/TMqKBpxg/image.png",
+    "technologies": ["Tailwind CSS", "JavaScript", "React", "Firebase", "Swiper.js"],
+    "links": {
+      "live": "https://pet-house-shope.netlify.app/",
+      "github": "https://github.com/tanvirshekh-dev/pet-house.git"
+    },
+    "buttonText": "View Case Study",
+    "hoverIcons": [
+      {
+        "icon": "external-link",
+        "url": "https://pet-house-shope.netlify.app/"
+      },
+      {
+        "icon": "github",
+        "url": "https://github.com/tanvirshekh-dev/pet-house.git"
       }
     ]
   }
