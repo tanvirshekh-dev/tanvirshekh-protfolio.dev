@@ -20,7 +20,7 @@ const Projects = () => {
       <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-20 mb-28">
         {projects.map((project) => (
           <div key={project.id}>
-            <div className="card shadow-2xl">
+            <div className="card shadow-2xl rounded-lg">
               <figure>
                 <img
                   src={project.image}
@@ -42,7 +42,7 @@ const Projects = () => {
                   }
                 </div>
                 <div className="card-actions">
-                  <button className="btn btn-outline btn-success w-full my-3">View case Study</button>
+                  <button className="btn btn-outline btn-success w-full my-3 rounded-lg font-semibold text-md hover:font-bold">View case Study</button>
                 </div>
               </div>
             </div>

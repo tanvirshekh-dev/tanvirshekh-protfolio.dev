@@ -4,6 +4,7 @@ import About from '../About/About';
 import Skills from '../Skills/Skills';
 import Services from '../Services/Services';
 import Projects from '../Projects/Projects';
+import Contact from '../Contact/Contact';
 
 const HomePage = () => {
     return (
@@ -18,6 +19,8 @@ const HomePage = () => {
             <Services></Services>
             {/* Projects section */}
             <Projects></Projects>
+            {/* Contact Us section */}
+            <Contact></Contact>
         </div>
     );
 };
