@@ -18,7 +18,7 @@ const About = () => {
           <div>
             <img
               src={portfolioImage}
-              className="max-w-md rounded-2xl"
+              className="w-auto md:max-w-md rounded-2xl"
               alt="Box Office"
             />
           </div>
