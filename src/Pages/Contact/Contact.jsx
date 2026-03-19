@@ -12,7 +12,7 @@ const Contact = () => {
         </span>
       </h2>
       <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-12 pt-16 mb-40 gap-x-10 gap-y-6 md:gap-y-0">
-        {/* contact info */}
+        {/* contact information */}
         <div className="flex flex-col gap-y-10 col-span-8 md:col-span-4 bg-gray-800 px-10 py-10 rounded-xl cursor-pointer ">
           {/* Email */}
           <div>
