@@ -42,7 +42,9 @@ const Projects = () => {
                   }
                 </div>
                 <div className="card-actions">
-                  <button className="btn btn-outline btn-success w-full my-3 rounded-lg font-semibold text-md hover:font-bold">View case Study</button>
+                  <button 
+                  onClick={()=> window.open(project.links.github, '_blank')}
+                  className="btn btn-outline btn-success w-full my-3 rounded-lg font-semibold text-md hover:font-bold">{project.buttonText}</button>
                 </div>
               </div>
             </div>

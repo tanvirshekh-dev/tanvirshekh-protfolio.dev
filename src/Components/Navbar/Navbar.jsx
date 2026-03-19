@@ -1,5 +1,5 @@
 import { BriefcaseBusiness, Contact, FolderGit2, House, Info, NotebookPen, TableOfContents } from "lucide-react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
 
@@ -47,7 +47,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn btn-success text-black">Hire Me</a>
+        <Link to={'/contact'} className="btn btn-success text-black">Hire Me</Link>
       </div>
     </div>
   );

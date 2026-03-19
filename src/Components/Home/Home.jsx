@@ -3,6 +3,7 @@ import image from "../../Images/tanvir shekh.png";
 import { CodeXml, Linkedin, Mail, Rocket } from "lucide-react";
 import { FiGithub } from "react-icons/fi";
 import { FaBehance } from "react-icons/fa";
+import { Link } from "react-router";
 
 const Home = () => {
   return (
@@ -28,12 +29,12 @@ const Home = () => {
           </p>
           {/* buttons */}
           <div>
-            <button className="btn btn-success mr-4">
+            <Link to={'/contact'} className="btn btn-success mr-4">
               <Rocket size={20} /> Hire Me
-            </button>
-            <button className="btn btn-success btn-outline">
+            </Link>
+            <Link to={'/projects'} className="btn btn-success btn-outline">
               <CodeXml size={20} /> View Project
-            </button>
+            </Link>
           </div>
 
           {/* social links */}
@@ -54,14 +55,12 @@ const Home = () => {
               <Linkedin size={28} />
             </a>
 
-            <a
-              href="mailto:tanvirshekh.dev@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
+            <button
+            onClick={()=> window.open('https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox', '_blank')}
               className="inline-flex items-center justify-center w-12 h-12 rounded-md bg-gray-800 text-white border border-gray-500 hover:bg-gray-700 transition-colors"
             >
               <Mail size={24} />
-            </a>
+            </button>
 
             <a
               href="https://www.behance.net/tanvirshekh-dev"

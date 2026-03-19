@@ -32,12 +32,6 @@ const router = createBrowserRouter([
       {
         path: "/projects",
         element: <Projects />,
-        loader: async () => {
-          const res = await fetch("/projects.json")
-          return res.json();
-        },
-          
-        hydrateFallbackElement: <Loading />
       },
       {
         path: "/contact",

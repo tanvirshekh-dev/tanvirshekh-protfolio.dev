@@ -59,14 +59,17 @@ const Contact = () => {
                 <Linkedin size={28} />
               </a>
 
-              <a
-                href="mailto:tanvirshekh.dev@gmail.com"
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                onClick={() =>
+                  window.open(
+                    "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox",
+                    "_blank",
+                  )
+                }
                 className="inline-flex items-center justify-center w-12 h-12 rounded-md bg-gray-800 text-white border border-gray-500 hover:bg-gray-700 transition-colors"
               >
                 <Mail size={24} />
-              </a>
+              </button>
 
               <a
                 href="https://www.behance.net/tanvirshekh-dev"
