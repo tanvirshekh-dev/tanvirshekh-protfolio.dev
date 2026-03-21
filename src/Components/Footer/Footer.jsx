@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
       <aside>
-        <a className="text-2xl">
+        <a className="text-2xl font-semibold">
           Tanvir{" "}
           <span className="bg-gradient-to-r from-[#00d390] to-[#00fff2] bg-clip-text text-transparent">
             Shekh
