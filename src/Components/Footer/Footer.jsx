@@ -10,6 +10,10 @@ const Footer = () => {
             Shekh
           </span>
         </a>
+        <p>
+          Creating beautiful, functional <br /> web experiences that make a difference.<br /> 
+          Let's build something amazing together.
+        </p>
       </aside>
       <nav>
         <h6 className="footer-title">Services</h6>
