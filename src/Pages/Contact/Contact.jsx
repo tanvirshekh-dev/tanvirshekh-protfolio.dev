@@ -17,21 +17,21 @@ const Contact = () => {
           {/* Email */}
           <div>
             <h2 className="font-semibold text-gray-400 text-2xl border-l-2 h-5 flex items-center border-green-400 pl-2 mb-2">
-              Email
+              Email Address
             </h2>
             <h5 className="text-gray-200">tanvirshekh.dev@gmail.com</h5>
           </div>
           {/* Location */}
           <div>
             <h2 className="font-semibold text-gray-400 text-2xl border-l-2 h-5 flex items-center border-green-400 pl-2 mb-2">
-              Location
+              Location Area
             </h2>
             <h5 className="text-gray-200">Narayanganj, Dhaka, Bangladesh</h5>
           </div>
           {/* Phone */}
           <div>
             <h2 className="font-semibold text-gray-400 text-2xl border-l-2 h-5 flex items-center border-green-400 pl-2 mb-2">
-              Phone
+              Phone Number
             </h2>
             <h5 className="text-gray-200">+880 1595272589</h5>
             <h5 className="text-gray-200">+880 1618787709</h5>
