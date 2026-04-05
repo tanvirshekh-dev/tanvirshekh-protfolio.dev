@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../Images/tanvir shekh.png";
+import image from "../../Images/MD. Tanvir Shekh.png";
 import { CodeXml, Linkedin, Mail, Rocket } from "lucide-react";
 import { FiGithub } from "react-icons/fi";
 import { FaBehance } from "react-icons/fa";
@@ -73,7 +73,7 @@ const Home = () => {
         </div>
 
         <div className="flex justify-center md:justify-end">
-          <img src={image} className="max-w-md rounded-2xl" alt="Box Office" />
+          <img src={image} className="max-w-md rounded-xl" alt="Box Office" />
         </div>
       </div>
     </div>
