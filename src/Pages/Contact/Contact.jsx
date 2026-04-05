@@ -34,7 +34,7 @@ const Contact = () => {
               Phone Number
             </h2>
             <h5 className="text-gray-200">+880 1595272589</h5>
-            <h5 className="text-gray-200">+880 1618787709</h5>
+            <h5 className="text-gray-200">+880 1873885492</h5>
           </div>
           {/* Social Media */}
           <div>
